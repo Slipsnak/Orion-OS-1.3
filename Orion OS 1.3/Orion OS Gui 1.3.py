@@ -66,7 +66,7 @@ class OrionOSGUI:
     def load_top_left_image(self):
         """Loads and places an image in the top-left corner."""
         try:
-            image = Image.open("C:\\Users\\josep\Desktop\\Orion OS versions\\Logo.jpg")  # Change to your actual image path
+            image = Image.open("your drive and dirctory\\Logo.jpg")  # Change to your actual image path
             image = image.resize((50, 50))  # Resize image if needed
             self.photo = ImageTk.PhotoImage(image)
 
